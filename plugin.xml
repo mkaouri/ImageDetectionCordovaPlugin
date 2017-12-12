@@ -71,12 +71,6 @@
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
           <string>This application needs camera access to perform image detection.</string>
       </config-file>
-        
-      <config-file target="*-Info.plist" parent="UIRequiredDeviceCapabilities">
-          <array>
-            <string>arm64</string>
-          </array>
-      </config-file>
 
       <header-file src="src/ios/ImageDetectionPlugin.h" target-dir="ImageDetectionPlugin" />
       <source-file src="src/ios/ImageDetectionPlugin.mm" target-dir="ImageDetectionPlugin" />

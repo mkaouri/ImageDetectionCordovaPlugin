@@ -73,7 +73,9 @@
       </config-file>
         
       <config-file target="*-Info.plist" parent="UIRequiredDeviceCapabilities">
-          <string>arm64</string>
+          <array>
+            <string>arm64</string>
+          </array>
       </config-file>
 
       <header-file src="src/ios/ImageDetectionPlugin.h" target-dir="ImageDetectionPlugin" />
